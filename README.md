@@ -9,24 +9,25 @@ SAAT is a **semi-automated annotation pipeline** that extracts commentary from s
 
 ---
 
-## 🛠️ **Workflow**  
-1️⃣ **Match Video Input**  
-   - A match video is provided as input.  
+## 🛠️ **Workflow & How to Use**
 
-2️⃣ **Extract Audio**  
-   - The system extracts the audio track (`.mp3`) from the video.  
+1. **Scrape Matches**  
+   - Use the `Scraping_for_matches.ipynb` notebook to scrape the matches you need. This notebook automates the process of downloading sports videos from various websites.
 
-3️⃣ **Speech-to-Text Model**  
-   - Converts commentary into transcribed text.  
+2. **Extract Audio**  
+   - The system extracts the audio track (`.mp3`) from the video.
 
-4️⃣ **Two Annotation Paths:**  
+3. **Speech-to-Text Model**  
+   - Converts commentary into transcribed text using Whisper, as implemented in the `Semi_automated_annotation_.ipynb` notebook. This step ensures accurate transcription of the audio commentary for further processing.
+
+4. **Two Annotation Paths:**  
    - **🔍 LLM-Based Annotation**  
-     - Uses a large language model (LLM) to generate annotations based on context.  
+     - Use the `LLm_Commentary_Event_Extraction.ipynb` notebook to leverage any open-source LLM model, such as LLaMA, or closed LLMs like ChatGPT or DeepSeek, to extract events from the commentary. This allows for flexible and powerful event detection using state-of-the-art language models.
    - **🗝️ Keyword-to-Action Mapping**  
-     - Detects specific keywords (e.g., "goal," "foul") and maps them to predefined actions.  
+     - Detects specific keywords (e.g., "goal," "foul") and maps them to predefined actions using the `Semi_automated_annotation_.ipynb` notebook. This method provides a straightforward approach to event annotation based on keyword detection.
 
-5️⃣ **Annotations Output**  
-   - The generated annotations are stored/exported for further processing.  
+5. **Annotations Output**  
+   - The generated annotations are stored/exported for further processing.
 
 🔗 **Temporal Annotation and Visualization Tool**  
    - For more advanced annotation and visualization, you can use the [Soccer Event Annotation Tool](https://github.com/ibrahimabdelaal/Soccer-event-annotation-tool).
