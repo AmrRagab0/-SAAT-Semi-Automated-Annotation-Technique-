@@ -18,6 +18,8 @@ SAAT is a **semi-automated annotation pipeline** that extracts commentary from s
    - **Keyword-to-Action Mapping** – Detects specific keywords (e.g., "goal," "foul") and maps them to predefined actions.  
 5️⃣ **Annotations Output** – The generated annotations are stored/exported for further processing.  
 
+🔗 **Temporal Annotation and Visualization Tool** – For more advanced annotation and visualization, you can use the [Soccer Event Annotation Tool](https://github.com/ibrahimabdelaal/Soccer-event-annotation-tool).
+
 ---
 
 ## **📦 Features**  
