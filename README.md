@@ -22,7 +22,8 @@ SAAT is a **semi-automated annotation pipeline** that extracts commentary from s
 
 4. **Two Annotation Paths:**  
    - **🔍 LLM-Based Annotation**  
-     - Use the `LLm_Commentary_Event_Extraction.ipynb` notebook to leverage any open-source LLM model, such as LLaMA, or closed LLMs like ChatGPT or DeepSeek, to extract events from the commentary. This allows for flexible and powerful event detection using state-of-the-art language models.
+     - Use the `LLm_Commentary_Event_Extraction.ipynb` notebook to leverage any open-source LLM model, such as LLaMA.
+     - Use closed LLMs like ChatGPT or DeepSeek, to extract events   from the commentary. This allows for flexible and powerful event detection using state-of-the-art language models.
    - **🗝️ Keyword-to-Action Mapping**  
      - Detects specific keywords (e.g., "goal," "foul") and maps them to predefined actions using the `Semi_automated_annotation_.ipynb` notebook. This method provides a straightforward approach to event annotation based on keyword detection.
 
