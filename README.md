@@ -7,6 +7,8 @@
 ## 📜 **Overview**  
 SAAT is a **semi-automated annotation pipeline** that extracts commentary from sports videos, converts speech to text, and generates annotations based on detected keywords or AI-driven models. This helps reduce manual effort in labeling match events for training AI models, analytics, or content creation.  
 
+![Description](pipeline-ezgif.com-video-to-gif-converter.gif)
+
 ---
 
 ## 🛠️ **Workflow & How to Use**
